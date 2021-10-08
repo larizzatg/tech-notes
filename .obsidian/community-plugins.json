@@ -1,1 +1,7 @@
-[]
+[
+  "obsidian-languagetool-plugin",
+  "sliding-panes-obsidian",
+  "cm-editor-syntax-highlight-obsidian",
+  "pane-relief",
+  "url-into-selection"
+]

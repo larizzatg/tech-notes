@@ -7,8 +7,136 @@
         "id": "3d3be80c8daa88c9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "serverless functions.md",
+            "mode": "preview"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"serverless functions.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":25.598412165566096}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"netlify.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"serverless functions.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":137},\"to\":{\"line\":7,\"ch\":137}},\"scroll\":0}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"netlify.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"serverless functions.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":114},\"to\":{\"line\":7,\"ch\":114}},\"scroll\":0}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nuxt.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":31},\"to\":{\"line\":5,\"ch\":31}},\"scroll\":0}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"serverless functions.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":14.637499809265137}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"node.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"netlify cli.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"node.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"netlify cli.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"node.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"netlify.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"node.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"serverless functions.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":14.9375}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"node.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"serverless functions.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":12.133333047231039}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"node.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"serverless functions.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":67},\"to\":{\"line\":31,\"ch\":67}},\"scroll\":5.15625}"
+            },
+            {
+              "leaf": "3d3be80c8daa88c9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"netlify.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            }
+          ]
         }
       }
     ],
@@ -28,6 +156,10 @@
             "state": {
               "type": "file-explorer",
               "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -43,6 +175,10 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -51,13 +187,17 @@
             "state": {
               "type": "empty",
               "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 213
   },
   "right": {
     "id": "572f6dcb712a188d",
@@ -73,14 +213,19 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "serverless functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           }
         ]
@@ -92,15 +237,15 @@
   },
   "active": "3d3be80c8daa88c9",
   "lastOpenFiles": [
-    "Bullet Points.md",
+    "serverless functions.md",
+    "netlify.md",
     "Untitled.md",
-    "Untitled 1.md",
-    "Start here.md",
-    "Plugins/Zettelkasten prefixer.md",
-    "Plugins/Search.md",
-    "Panes/Pane layout.md",
-    "How to/Working with backlinks.md",
-    "Panes/Linked pane.md",
-    "Obsidian/Android app.md"
+    "node.md",
+    "netlify cli.md",
+    "Netlify CLI.md",
+    "Netlify.md",
+    "Serverless Functions.md",
+    "Bullet Points.md",
+    "Untitled 1.md"
   ]
 }
