@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "a118b3cd296f4f24",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d3be80c8daa88c9",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3cc20230d07c201a",
+    "type": "split",
+    "children": [
+      {
+        "id": "68f8e4aeb95e46a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa1330232243bfff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "539efa7aa5f6e354",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "40a6c6d65f62737f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "572f6dcb712a188d",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ba03637dc827a35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d64d230248fc9db4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3d3be80c8daa88c9",
+  "lastOpenFiles": [
+    "Bullet Points.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Start here.md",
+    "Plugins/Zettelkasten prefixer.md",
+    "Plugins/Search.md",
+    "Panes/Pane layout.md",
+    "How to/Working with backlinks.md",
+    "Panes/Linked pane.md",
+    "Obsidian/Android app.md"
+  ]
+}

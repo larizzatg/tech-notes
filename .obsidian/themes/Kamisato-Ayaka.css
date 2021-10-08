@@ -1,0 +1,135 @@
+/**
+Genshin Impact Kamisato Ayaka Theme
+Colors Credits to Mihoyo
+Reference Image: https://upload-os-bbs.hoyolab.com/upload/2021/07/19/1015537/9c6070da0fe23081c6ad3389b8ee010d_8307924212594573588.jpg
+**/
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
+:root {
+  --font-heading: "Space Grotesk", "Inter", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+}
+
+.theme-dark {
+  --background-primary: #142234;
+  --background-primary-alt: #111c2d;
+  --background-secondary: #0e1825;
+  --background-secondary-alt: #0b131d;
+  --background-modifier-border: #111c2d;
+  --background-modifier-form-field: rgba(0, 0, 0, 0.3);
+  --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: #197300;
+  --background-modifier-error: #400707;
+  --background-modifier-error-rgb: 61, 0, 0;
+  --background-modifier-error-hover: #530909;
+  --background-modifier-cover: rgba(0, 0, 0, 0.8);
+  --text-accent: #d0b98d;
+  --text-accent-hover: #cbac69;
+  --text-normal: #d9d9d6;
+  --text-muted: #b1c3ca;
+  --text-muted-rgb: 177, 195, 202;
+  --text-faint: #b8adba;
+  --text-error: #ff3333;
+  --text-error-hover: #990000;
+  --text-highlight-bg: rgba(131, 39, 94, 0.7);
+  --text-highlight-bg-active: rgba(251, 174, 197, 0.6);
+  --text-selection: rgba(31, 53, 81, 0.99);
+  --text-on-accent: #d9d9d6;
+  --interactive-normal: #2a2a2a;
+  --interactive-hover: #303030;
+  --interactive-accent: #56698a;
+  --interactive-accent-rgb: 72, 54, 153;
+  --interactive-accent-hover: #4d3ca6;
+  --interactive-success: #197300;
+  --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
+  --scrollbar-bg: rgba(255, 255, 255, 0.05);
+  --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+  --highlight-mix-blend-mode: lighten;
+
+  --checkbox-bg: #68c5c5;
+}
+
+/** GLOBAL STYLES **/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+.theme-dark .workspace-tab-header.is-active {
+  color: var(--text-accent-hover);
+}
+
+.markdown-preview-view code {
+  color: #b43d5c;
+}
+
+/* Align center, text in metadata fm */
+.frontmatter-container .frontmatter-section {
+  align-items: center;
+}
+
+/* Lines for bullet points 
+ * https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/2
+ * https://forum.obsidian.md/u/death.au
+*/
+ul ::marker {
+  color: rgba(203, 245, 245, 0.8);
+}
+
+.cm-hmd-list-indent .cm-tab,
+ul ul {
+  position: relative;
+}
+
+.cm-hmd-list-indent .cm-tab::before,
+ul ul::before {
+  content: "";
+  border-left: 1px solid rgba(203, 245, 245, 0.25);
+  position: absolute;
+  margin-left: -2px;
+}
+
+.cm-hmd-list-indent .cm-tab::before {
+  left: 0;
+  top: -5px;
+  bottom: -4px;
+}
+
+ul ul::before {
+  left: -11px;
+  top: 0;
+  bottom: 0;
+}
+
+/* Nicer Checkbox */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  border: 1px solid var(--text-faint);
+  padding: 0;
+}
+input[type="checkbox"]:focus {
+  outline: 0;
+}
+input[type="checkbox"]:checked {
+  background-color: var(--checkbox-bg);
+  border: 1px solid var(--checkbox-bg);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
+}
+.markdown-preview-view .task-list-item-checkbox {
+  margin-left: -25px;
+  top: 5px;
+}
+.markdown-preview-view .task-list-item {
+  padding-inline-start: 25px;
+}
